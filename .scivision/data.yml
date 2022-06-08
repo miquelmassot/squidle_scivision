@@ -1,6 +1,7 @@
 sources:
   squidle_csv:
       description: Exported Squidle CSV file
-      driver: csv
+      driver: squidle_csv
       args:
         urlpath: '{{ CATALOG_DIR }}/../annotations-uid12-SHR_AE2000_3000samples-artificial_objects-453-points.csv'
+        image_url_column_header: 'media_path'
